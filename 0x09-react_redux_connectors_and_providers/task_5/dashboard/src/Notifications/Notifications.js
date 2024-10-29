@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 import { fetchNotifications } from "../actions/notificationActionCreators";
 import NotificationItem from "./NotificationItem";
 import PropTypes from "prop-types";
-import closeIcon from "../assets/close-icon.png";
+import closeBtn from "../assets/close-btn.png";
 import { StyleSheet, css } from "aphrodite";
 
 export class Notifications extends Component {
@@ -51,8 +51,8 @@ export class Notifications extends Component {
               id="closeNotifications"
             >
               <img
-                src={closeIcon}
-                alt="close-icon"
+                src={closeBtn}
+                alt="X"
                 className={css(styles.notificationsButtonImage)}
               />
             </button>

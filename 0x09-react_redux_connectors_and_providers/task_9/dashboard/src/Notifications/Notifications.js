@@ -1,7 +1,7 @@
 import React from "react";
 import NotificationItem from "./NotificationItem";
 import PropTypes from "prop-types";
-import closeIcon from "../assets/close-icon.png";
+import closeBtn from "../assets/close-btn.png";
 import { StyleSheet, css } from "aphrodite";
 
 function Notifications(props) {
@@ -41,8 +41,8 @@ function Notifications(props) {
             id="closeNotifications"
           >
             <img
-              src={closeIcon}
-              alt="close-icon"
+              src={closeBtn}
+              alt="X"
               className={css(styles.notificationsButtonImage)}
             />
           </button>
