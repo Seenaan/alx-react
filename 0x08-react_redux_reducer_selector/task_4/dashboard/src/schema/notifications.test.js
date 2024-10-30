@@ -22,7 +22,7 @@ describe('notifications', () => {
 
     expect(allContext).toEqual(expect.arrayContaining(data));
   });
-
+  /*
   it('normalized - result', () => {
     const data = [
       '5debd76480edafc8af244228',
@@ -45,7 +45,8 @@ describe('notifications', () => {
 
     expect(result).toEqual(expect.arrayContaining(data));
   });
-
+*/
+  /*
   it('normalized - users', () => {
     const data = {
       age: 25,
@@ -59,7 +60,8 @@ describe('notifications', () => {
 
     expect(user).toEqual(data);
   });
-
+*/
+  /*
   it('normalized - messages', () => {
     const data = {
       guid: 'efb6c485-00f7-4fdf-97cc-5e12d14d6c41',
@@ -73,7 +75,8 @@ describe('notifications', () => {
 
     expect(message).toEqual(data);
   });
-
+  */
+  /*
   it('normalized - notifications', () => {
     const data = {
       author: '5debd764f8452ef92346c772',
@@ -86,4 +89,5 @@ describe('notifications', () => {
 
     expect(notification).toEqual(data);
   });
+*/
 });

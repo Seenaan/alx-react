@@ -7,7 +7,7 @@ import {
 import NotificationItem from "./NotificationItem";
 import { getUnreadNotifications } from "../selectors/notificationSelector";
 import PropTypes from "prop-types";
-import closeBtn from "../assets/close-btn.png";
+import closeIcon from "../assets/close-icon.png";
 import { StyleSheet, css } from "aphrodite";
 
 export class Notifications extends Component {
@@ -55,8 +55,8 @@ export class Notifications extends Component {
               id="closeNotifications"
             >
               <img
-                src={closeBtn}
-                alt="X"
+                src={closeIcon}
+                alt="close-icon"
                 className={css(styles.notificationsButtonImage)}
               />
             </button>

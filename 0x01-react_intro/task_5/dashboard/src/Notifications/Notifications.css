@@ -1,20 +1,12 @@
 .Notifications {
-	width: 95%;
-    border: 2px dotted #FF0000;
-    padding: 0 20px;
-    top: 0;
-    position: absolute;
+	padding: 2em;
+	border: 2px dashed red;
+}
 
+ul li[data='default'] {
+	color: blue;
 }
-li[data="default"] {
-	color: #89CFF0;
-}
-li[data="urgent"] {
-	color: #FF0000;
-}
-.Notifications img{
-	top: 0px;
-	width: 15px;
-	height: 15px;
-	position: absolute;
+
+ul li[data='urgent'] {
+	color: red;
 }

@@ -1,10 +1,13 @@
+
 .Notifications {
-    border: 2px solid #FF0000.;
-    padding: 20px;
+	border: 3px solid var(--hred);
+	padding: 6px 12px;
 }
-li [data="default"] {
-	color: #89CFF0;
+
+li[data-priority="default"] {
+	color: blue;
 }
-li [data="urgent"] {
-	color: #FF0000.;
+
+li[data-priority="urgent"] {
+	color: red;
 }

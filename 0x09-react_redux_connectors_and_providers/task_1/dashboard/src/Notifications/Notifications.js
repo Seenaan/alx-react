@@ -2,7 +2,7 @@ import React, { PureComponent } from "react";
 import NotificationItem from "./NotificationItem";
 import PropTypes from "prop-types";
 import NotificationItemShape from "./NotificationItemShape";
-import closeBtn from "../assets/close-btn.png";
+import closeIcon from "../assets/close-icon.png";
 import { StyleSheet, css } from "aphrodite";
 
 class Notifications extends PureComponent {
@@ -59,8 +59,8 @@ class Notifications extends PureComponent {
               id="closeNotifications"
             >
               <img
-                src={closeBtn}
-                alt="X"
+                src={closeIcon}
+                alt="close-icon"
                 className={css(styles.notificationsButtonImage)}
               />
             </button>
